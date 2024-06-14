@@ -28,9 +28,6 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
-    //   filename: 'index.html',
-    //   inject: 'body',
-    //   chunks: ["app"],
     }),
   ],
   devServer: {
